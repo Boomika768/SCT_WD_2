@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="no-select">
+    <div class="heading">
+      <h1>STOPWATCH</h1>
+    </div>
+    <div class="stopwatch-container">
+      <span id="js--stopwatch" class="stopwatch"></span>
+    </div>
+    <div class="actions">
+      <button id="js--start" class="btn btn-green u-push-right">
+        Start
+      </button>
+      <button id="js--stop" class="btn btn-red u-push-right u-display-none">
+        Stop
+      </button>
+      <button id="js--reset" class="btn btn-default" disabled>
+        Reset
+      </button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+
+</html>
